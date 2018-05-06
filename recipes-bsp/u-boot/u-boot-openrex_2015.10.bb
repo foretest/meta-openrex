@@ -11,7 +11,7 @@ DESCRIPTION = "U-Boot bootloader with support for openrex board"
 
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=0507cd7da8e7ad6d6701926ec9b84c95"
-COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-openrex)"
+COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-openrex|imx6s-openrex)"
 
 PROVIDES += "u-boot"
 PV = "v2015.10+git${SRCPV}"
@@ -19,7 +19,7 @@ SRCBRANCH ??= "jethro"
 
 SRC_URI = "git://github.com/foretest/openrex-uboot-v2015.10.git;branch=${SRCBRANCH}"
 
-SRCREV = "6861a6747eafcfe5f1be104e33f028c148984543"
+SRCREV = "6ac1847fb16233be07b915a6fd9139d270e43399"
 
 S = "${WORKDIR}/git"
 

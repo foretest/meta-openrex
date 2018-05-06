@@ -15,11 +15,11 @@ SRCBRANCH = "jethro"
 LOCALVERSION = "-fslc"
 
 #Always update SRCREV based on your last commit
-SRCREV = "406a1722ba6eb4eeb1f010ef19edc72ed0be6833"
+SRCREV = "9a6e7aac1b2bb3daabe42550383b43110055162c"
 
 SRC_URI = "git://github.com/foretest/openrex-linux-3.14.git;branch=${SRCBRANCH} \
            file://defconfig"
 
 #PV .= "+git${SRCPV}"
 
-COMPATIBLE_MACHINE = "(mx6|mx7|imx6q-openrex)"
+COMPATIBLE_MACHINE = "(mx6|mx7|imx6q-openrex|imx6s-openrex)"
